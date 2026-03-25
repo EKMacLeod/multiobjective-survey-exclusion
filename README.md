@@ -7,6 +7,7 @@ Note that the Python code runs on HTCondor. It may not directly run on a non-con
 
 Python code for each method runs through the "Haddock_SurveyIndex_Gridded_allqs.R" script to calculate the % difference on the survey indices.
 Code for the Leave-one-out and Greedy methods is stored in the "LOO_Greedy implementation" script - the method is defined at the top of the script.
+Code for the Abindance method implementation is stored in the "Abundance method.R" script
 
 Files for the NSGA-II algorithm are:
   nsgaii_custom.py
